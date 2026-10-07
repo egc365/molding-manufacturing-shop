@@ -1,0 +1,82 @@
+{
+  "revision": "concept-001",
+  "date": "2026-10-07",
+  "units": "mm",
+  "status": "provisional layout, not manufacturing released",
+  "requirements": [
+    "Large printer transfers molds or masters to downstream stations",
+    "Fresh pallet loads while downstream work continues",
+    "Source designs remain forked and all work GitHub linked"
+  ],
+  "parameters": {
+    "build_width": {
+      "value": 800,
+      "category": "reference_spec"
+    },
+    "build_depth": {
+      "value": 800,
+      "category": "reference_spec"
+    },
+    "build_height": {
+      "value": 900,
+      "category": "reference_spec"
+    },
+    "pallet_margin": {
+      "value": 25,
+      "category": "provisional"
+    },
+    "pallet_thickness": {
+      "value": 10,
+      "category": "provisional"
+    },
+    "frame_width": {
+      "value": 1100,
+      "category": "provisional"
+    },
+    "frame_depth": {
+      "value": 1100,
+      "category": "provisional"
+    },
+    "frame_height": {
+      "value": 1500,
+      "category": "provisional"
+    },
+    "frame_member": {
+      "value": 50,
+      "category": "provisional"
+    },
+    "transfer_height": {
+      "value": 400,
+      "category": "provisional"
+    },
+    "station_gap": {
+      "value": 200,
+      "category": "provisional"
+    }
+  },
+  "reference_locator": "BigFDM README at pinned revision, specifications, not paginated, source lines 32-33. Printing area is not physical bed measurement.",
+  "interfaces": {
+    "pallet": "Removable carrier above permanent heated support; Z drive and heater wiring remain in printer",
+    "registration": "Locating pins and clamps candidate; design and repeatability pending",
+    "transfer": "Supported linear shuttle candidate; loading, clearance and controls pending",
+    "molding": "Process selected after materials; no vacuum/pressure vessel design in initial layout"
+  },
+  "cycle": [
+    "print complete",
+    "park head",
+    "move Z to transfer position",
+    "confirm downstream ready",
+    "unclamp",
+    "transfer supported pallet",
+    "confirm clear",
+    "load clean pallet",
+    "clamp and verify",
+    "probe and restart"
+  ],
+  "acceptance": {
+    "cad_execution": "pending",
+    "native_step_readback": "pending",
+    "physical_cycle": "pending",
+    "manufacturing_release": false
+  }
+}

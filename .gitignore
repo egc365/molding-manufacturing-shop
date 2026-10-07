@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+work-sessions/
+*.webm
+*.mp4

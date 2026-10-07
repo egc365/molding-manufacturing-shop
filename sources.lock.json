@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-07",
+  "sources": [
+    {
+      "fork": "egc365/BigFDM",
+      "upstream": "fab-machines/BigFDM",
+      "branch": "master",
+      "commit": "2c222bdee2b6c6f5e23a807b35774b98fa5a98eb",
+      "notes": "Large printer CAD; CERN-OHL-W-2.0"
+    },
+    {
+      "fork": "egc365/Voron-2",
+      "upstream": "VoronDesign/Voron-2",
+      "branch": "Voron2.4",
+      "commit": "a192410e27ea345644ae5c4b29b4c9c40cbe1a73",
+      "notes": "Existing printer reference; GPL-3.0"
+    },
+    {
+      "fork": "egc365/RatRig-PrintedParts",
+      "upstream": "Rat-Rig/RatRig-PrintedParts",
+      "branch": "main",
+      "commit": "c8a6c0d74f5f79a5fab015c5392d188cf12d3384",
+      "notes": "Published parts; preserve upstream terms"
+    },
+    {
+      "fork": "egc365/RatRig-Panels",
+      "upstream": "Rat-Rig/RatRig-Panels",
+      "branch": "main",
+      "commit": "94dd0f4768a73e6e6cc9db9f204c6dd04c937f68",
+      "notes": "Published panels; preserve upstream terms"
+    },
+    {
+      "fork": "egc365/replac3d",
+      "upstream": "jerryli08/replac3d",
+      "branch": "main",
+      "commit": "d6d2e56e3277d414d7a0578e43404a11cc680a0c",
+      "notes": "Plate changer reference; no declared license, do not copy implementation"
+    }
+  ]
+}
