@@ -87,3 +87,9 @@ Continue in this master and repository; do not duplicate reports. Skills used ar
 Establish the local folder and project-scoped recorder, clone hub and BigFDM, read local instructions, then import BigFDM STEP on a copy with hash, units, body count and bounds. Run CELL-001 in the existing FreeCAD runtime and retain actual native/STEP receipts. Keep manufacturing release open.
 
 GitHub issues track mechanical import, supported transfer and process requirements. Coordinate Grok changes through owned files or branches when the owner connects its work.
+
+### Active research and build cards
+
+- [1. CELL-001: Import BigFDM and verify the original pallet-transfer CAD concept](https://github.com/egc365/molding-manufacturing-shop/issues/1)
+- [2. TRANSFER-001: Engineer supported pallet exchange and docking](https://github.com/egc365/molding-manufacturing-shop/issues/2)
+- [3. PROCESS-001: Define molding workflow, materials and production targets](https://github.com/egc365/molding-manufacturing-shop/issues/3)
